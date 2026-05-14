@@ -1,14 +1,15 @@
 body {
-  font-family: Verdana, sans-serif;
+  font-family: Verdana, serif;
   margin: auto;
   padding: 20px;
   max-width: 720px;
   text-align: left;
-  background-color: #1d1f27;
+  background-color: #ffffff;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.5;
-  color: #c9d1d9;
+  color: #000000;
+  font-size: 18px;
 }
 
 h1,
@@ -19,11 +20,11 @@ h5,
 h6,
 strong,
 b {
-  color: #eee;
+  color: #000000;
 }
 
 a {
-  color: #8cc2dd;
+  color: #1552a1;
 }
 
 .title {
@@ -39,21 +40,33 @@ a {
   font-weight: 400;
 }
 
-nav a {
-  margin-right: 10px;
+.title-img {
+  display: block;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+hr {
+  height: 2px;
 }
 
 textarea {
   background-color: #252525;
   color: #ddd;
   width: 100%;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 input {
   background-color: #252525;
   color: #ddd;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 content {
@@ -88,7 +101,7 @@ pre code {
   display: block;
   padding: 20px;
   white-space: pre-wrap;
-  font-size: 14px;
+  font-size: 16px;
   overflow-x: auto;
   text-wrap: nowrap;
 }
